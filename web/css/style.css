@@ -1,0 +1,57 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fce4ec; /* Rosa claro */
+    color: #333;
+}
+
+header {
+    background-color: #81d4fa; /* Azul pastel */
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fce4ec;
+}
+
+footer {
+    background-color: #81d4fa;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    align-items:j;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:initial;
+}
+

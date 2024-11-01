@@ -1,0 +1,41 @@
+@import url('style.css');
+
+#contato {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contato h2 {
+    color: #d81b60;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    color: #d81b60;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    background-color: #81d4fa;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #4fc3f7;
+}
